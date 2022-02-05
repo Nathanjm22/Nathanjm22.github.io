@@ -1,0 +1,27 @@
+h1 {
+    font-family: "Papyrus";
+    font-size: 15rem;
+    color: #FF1493;
+    background-color: #8B4513;
+}
+
+Body {
+    background-color: red;
+}
+
+div h3 {
+    color: blue;
+    font-family: "Copperplate Gothic Light";
+}
+
+#ingredients {
+    background-color: #FF1493;
+    color: 	#ADFF2F;
+    font-family: "Ink Free";
+}
+
+#directions {
+    background-color: #FF1493;
+    color: 	#ADFF2F;
+    font-family: "Ink Free";
+}
