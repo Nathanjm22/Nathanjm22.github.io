@@ -1,0 +1,39 @@
+body{
+    background-color: #00204a;
+    margin:0;
+}
+
+header {
+    min-height: 200px;
+    background-color: #ffc93c;
+    width:100%;
+    float:left;
+}
+
+#col-1 {
+    min-height: 200px;
+    background-color: #005792;
+    width:33%;
+    float:left;
+}
+
+#col-2 {
+    min-height: 200px;
+    background-color: #ff9a3c;
+    width:33%;
+    float:left;
+}
+
+#col-3 {
+    min-height: 200px;
+    background-color: #00bbf0;
+    width:33%;
+    float:left;
+}
+
+footer {
+    min-height: 200px;
+    background-color: #ff6f3c;
+    width:100%;
+    clear:both;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: #00204a;
+    margin:0;
+}
+
+.header{
+    grid-area: header;
+    background-color: #ffc93c;
+    margin:5px;
+}
+
+.item1{
+    grid-area: item1;
+    background-color: #005792;
+    margin:15px;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: #ff9a3c;
+    margin:50px;
+}
+
+.item3{
+    grid-area: item3;
+    background-color: #00bbf0;
+    margin:15px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #ff6f3c;
+    margin:5px;
+}
+
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+    'header header header'
+    'item1 item2 item3'
+    'footer footer footer' ;
+    grid-gap:10px;
+}
