@@ -6,7 +6,7 @@ body{
 
 #container{
     background-color: #b99976;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -25,6 +25,7 @@ header{
 }
 
 #ingredients{
+    width:60%;
     float: left;
 }
 
