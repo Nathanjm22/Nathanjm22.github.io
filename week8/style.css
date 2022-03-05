@@ -1,0 +1,112 @@
+body{
+    background-color: #fbeec1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+#container{
+    background-color: #daad86;
+    width: 60%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    border-radius: 3em;
+}
+
+header{
+    background-color: #b99976;
+    width: 100%;
+    text-align: center;
+}
+
+#image{
+    width: 30%;
+    float:left; 
+    margin-left: 8em;
+    margin-bottom: 4em;
+}
+
+#ingredients{
+    width: 35%;
+    float: right;
+    margin-right: 8em;;
+}
+
+#directions{
+    clear: both;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer{
+    background-color: #b99976;
+}
+
+/* TYPOGRAPHY */
+
+h1{
+    font-size: 4.768rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8cdbff;
+}
+
+h3{
+    font-size: 3.815rem;
+    color: #8cdbff;
+}
+
+a{
+    color: #8cdbff;
+}
+
+a:hover {
+    color: #b0e6ff;
+}
+
+a:visited {
+    color: #ffb0ff;
+}
+
+/* --------MEDIA QUERIES-------- */
+
+@media only screen and (max-width: 1000px) {
+
+    body {
+        background-color: #daad86;
+    }
+      
+    #container{
+        width: 100%;
+    }
+
+    header{
+        background-image: url("imgs/pexels-oleg-magni-890577\ -\ Copy.jpg");
+        background-repeat: no-repeat;
+        background-size: 70em;
+        background-position: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    #ingredients {
+        width: 100%;
+        float: left;
+    }
+
+    #directions{
+        width: 100%;
+        float: left;
+    }
+
+    footer{
+        position: absolute; bottom:0; width: fit-content; height: 20px;
+    }
+
+}
